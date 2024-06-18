@@ -20,4 +20,8 @@ describe('fizzbuzz', () => {
     let result = fizzbuzz(23)
     expect(result).toEqual(23)
   });
+
+  it('should return an error message if parameter is not a number', () => {
+
+  });
 });
