@@ -22,6 +22,7 @@ describe('fizzbuzz', () => {
   });
 
   it('should return an error message if parameter is not a number', () => {
-
+    let result = fizzbuzz("string")
+    expect(result).toEqual("Error, you have entered a string!!!")
   });
 });
